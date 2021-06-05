@@ -19,6 +19,8 @@ export TERM="tmux-256color"
 # .NET Core telemetry feature disable.
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
+# ccache setting.
+export CCACHE_COMPRESS=1
 
 # Color man pages
 man() {
